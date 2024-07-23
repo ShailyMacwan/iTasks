@@ -62,8 +62,8 @@ const ToDos = () => {
     
   return (
     <>
-     <div className="mx-3 md:container md:mx-auto my-5 rounded-xl p-5 bg-violet-300 min-h-[85vh] md:w-[95%]">
-          <h1 className='flex  justify-center items-center mx-auto gap-3 font-bold md:text-4xl sm:text-xl text-blue-950'><GrTasks />iTask</h1>
+      <div className="sm:w-full h-full sm:mx-0 md:container md:mx-auto md:my-5 rounded-xl p-5 bg-violet-300 min-h-screen md:w-[95%]">
+        <h1 className='flex  justify-center items-center mx-auto gap-3 font-bold md:text-4xl sm:text-xl text-blue-950'><GrTasks />iTask</h1>
            <div className="addTodo my-5 flex flex-col gap-4">
             <h2 className='md:text-2xl text-left sm:text-sm font-bold text-blue-800'>Add a Todo</h2>
             <div className="flex">
